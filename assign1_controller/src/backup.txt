@@ -1,0 +1,49 @@
+/*
+ *  mystruct.h
+ *  created on: Feb 18th, 2019
+ *  Author: Tianze Wu
+ *
+ */
+/***************************************/
+#define ID_SCAN  0
+#define WEIGHED  1
+
+/***************************************/
+struct input_send{
+	int id;
+	int weight;
+	char *command;
+
+}typedef person_t;
+/***************************************/
+struct controller_response{
+
+
+
+}typedef controller_res_t;
+/****************************************/
+struct controller_to_display{
+	char *message;
+	person_t;
+
+}typedef con_to_d;
+/****************************************/
+struct display_re_controller{
+
+
+
+}typedef dis_res_c;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
